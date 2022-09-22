@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="https://app.dankicastle.io/images/coin.png" type="image/x-icon" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="swap_tokens.css">
+<title>Danki Swap | Trade Tokens on BSC</title>
+</head>
+<body>
+<div class="wraper-header">
+<div class="finance">
+<a href="https://dankicode.finance"><h2>DankiFinanceV1</h2></a>
+</div>
+<div class="wallet-connect">
+<button id="network">
+<img src="https://assets-global.website-files.com/5e73a1e3ba24f2cd5dd2232a/620b31921bac94c44de5969d_bnb.png" />Binance
+</button>
+<button id="connect-wallet">
+Connect Wallet
+</button>
+</div>
+</div>
+<div style="display: block;" class="container-main">
+<h2>BNB Amount <img style="width:30px;" src="https://assets-global.website-files.com/5e73a1e3ba24f2cd5dd2232a/620b31921bac94c44de5969d_bnb.png" /></h2>
+<input type="number" step="any" name="bnb-0" />
+<h2>DT Amount <img style="width:30px;" src="http://dankicastle.io/images/coin.png" /></h2>
+<input type="number" step="any" name="dt-0" />
+<br />
+<br />
+<p style="font-weight: bold;color:white;">Slippage: 0.4%</p>
+<br />
+<button id="swap-eth-for-token">Swap Tokens!</button>
+</div>
+<div style="display: block;" class="container-reverse-tokens">
+<h2>BUSD Amount <img style="width:30px;" src="https://cryptologos.cc/logos/binance-usd-busd-logo.png?v=022" /></h2>
+<input type="number" step="any" name="busd-0" />
+<h2>DFT Amount <img style="width:30px;" src="https://dankicode.finance/images/dfcoin.png" /></h2>
+<input type="number" step="any" name="dft-0" />
+<br />
+<br />
+<p style="font-weight: bold;color:white;">Slippage: 0.4%</p>
+<br />
+<button id="swap-token-for-token">Swap Tokens!</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/8.0.2/bignumber.min.js"></script>
+<script src="https://cdn.ethers.io/scripts/ethers-v3.min.js" charset="utf-8" type="text/javascript">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"></script>
+
+<script src="swap_tokens.js"></script>
+</body>
+</html>

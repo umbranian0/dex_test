@@ -1,0 +1,193 @@
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
+
+		body{
+			background-image: linear-gradient(to right, #614385 0%, #516395  51%, #614385  100%);
+			background-attachment: fixed;
+		}
+
+		.container-main{
+			margin:50px auto;
+			max-width: 700px;
+			padding:30px;
+			background-color:  #2d1e55;
+			border-radius:20px;
+		}
+
+		.container-main input[type=number]{
+			height:60px;
+			border-radius:20px;
+			padding-left:10px;
+			font-size: 17px;
+			width:100%;
+			background-color:#5d4d8a;
+			outline: 0;
+			border:0;
+			color:white;
+		}
+		.container-main h2{
+			margin:10px 0;
+			color:white;
+			vertical-align: middle;
+		}
+		.container-main img{
+			vertical-align: middle;
+		}
+		.container-main button{
+			width:100%;
+			height:40px;
+			display: block;
+			margin:10px 0;
+			border:0;
+			outline: 0;
+			cursor: pointer;
+			border-radius:20px;
+			font-size:24px;
+			color: #122a97;
+			background-color:#6c88ff;
+		}
+		.container-main .switch{
+			text-align: center;
+			color:white;
+			
+		}
+		.switch svg{
+			font-size: 23px;
+		}
+
+
+		.container-reverse{
+			margin:50px auto;
+			max-width: 700px;
+			padding:30px;
+			background-color:  #2d1e55;
+			border-radius:20px;
+		}
+
+		.container-reverse input[type=number]{
+			height:60px;
+			border-radius:20px;
+			padding-left:10px;
+			font-size: 17px;
+			width:100%;
+			background-color:#5d4d8a;
+			outline: 0;
+			border:0;
+			color:white;
+		}
+		.container-reverse h2{
+			margin:10px 0;
+			color:white;
+			vertical-align: middle;
+		}
+		.container-reverse img{
+			vertical-align: middle;
+		}
+		.container-reverse button{
+			width:100%;
+			height:40px;
+			display: block;
+			margin:10px 0;
+			border:0;
+			outline: 0;
+			cursor: pointer;
+			border-radius:20px;
+			font-size:24px;
+			color: #122a97;
+			background-color:#6c88ff;
+		}
+		.container-reverse .switch{
+			text-align: center;
+			color:white;
+			
+		}
+		.wallet-connect{
+			padding:30px;
+			display: flex;
+			width:100%;
+			justify-content: right;
+		}
+		.wraper-header{
+			display: flex;
+			width:100%;
+		}
+		.container-reverse-tokens{
+			margin:50px auto;
+			max-width: 700px;
+			padding:30px;
+			background-color:  #2d1e55;
+			border-radius:20px;
+		}
+
+		.container-reverse-tokens input[type=number]{
+			height:60px;
+			border-radius:20px;
+			padding-left:10px;
+			font-size: 17px;
+			width:100%;
+			background-color:#5d4d8a;
+			outline: 0;
+			border:0;
+			color:white;
+		}
+		.container-reverse-tokens h2{
+			margin:10px 0;
+			color:white;
+			vertical-align: middle;
+		}
+		.container-reverse-tokens img{
+			vertical-align: middle;
+		}
+		.container-reverse-tokens button{
+			width:100%;
+			height:40px;
+			display: block;
+			margin:10px 0;
+			border:0;
+			outline: 0;
+			cursor: pointer;
+			border-radius:20px;
+			font-size:24px;
+			color: #122a97;
+			background-color:#6c88ff;
+		}
+		.container-reverse-tokens .switch{
+			text-align: center;
+			color:white;
+			
+		}
+		#connect-wallet{
+			background-color: rgb(33, 114, 229);
+			padding:8px 10px;
+			border-radius:20px;
+			color:white;
+			border:0;
+			cursor: pointer;
+			font-size: 18px;
+			margin:0 8px;
+			background-color: rgb(3,3,3);
+			padding:8px 15px;
+			border-radius:20px;
+			color:white;
+			border:0;
+			cursor: pointer;
+			font-size: 18px;
+		}
+		#network img{
+			width:30px;
+			padding-right: 8px;
+			vertical-align: middle;
+		}
+		.finance{
+			display: flex;
+			padding:30px;
+			color:white;
+
+		}
+		.finance a{
+			text-decoration: none;
+			color:white;
+		}
